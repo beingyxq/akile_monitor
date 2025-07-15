@@ -29,7 +29,7 @@ mkdir -p /etc/ak_monitor/
 cd /etc/ak_monitor/
 
 # Download monitor
-wget -O ak_monitor https://p.221320.xyz/https://github.com/akile-network/akile_monitor/releases/latest/download/$MONITOR_FILE
+wget -O ak_monitor https://github.com/akile-network/akile_monitor/releases/latest/download/$MONITOR_FILE
 chmod 777 ak_monitor
 
 # Create service file
